@@ -1,0 +1,44 @@
+#topdrawer {
+  /* top: -100vh; */
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+  position: absolute;
+  display: flex;
+  transition: top 0.34s ease;
+}
+
+.link-container {
+  align-self: center;
+}
+
+.text {
+  font-family: 'Oxygen Mono', monospace;
+  letter-spacing: 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 4em;
+  margin: 10px 0 0 15vw;
+}
+
+.text:hover {
+  color: black;
+  background-color: white;
+}
+
+.home:hover .topdrawer{
+  background-color: blue;
+}
+
+.about:hover .topdrawer{
+  background-color: white;
+}
+
+.contact:hover .topdrawer{
+  color: black;
+  background-color: white;
+}
+
+/* #topdrawer.open{
+top:-100vh;
+} */
